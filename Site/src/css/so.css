@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #332C3C;
+    margin-bottom: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+header nav a img{
+    width: 100px;
+    cursor: pointer;
+}
+header nav img{
+    transition: 1s;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+header nav img:hover{
+    transition: 1s;
+    margin-left: 70px;
+}
+.light{
+    margin-left: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+aside{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #332C3C;
+    width: 130px;
+    height: 100%;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    background-color: #733fb6;   
+}
+aside li{
+    margin: 10px;
+}
+.left{
+   display: flex;
+   font-size: 20px;
+}
+.left h2{
+    font-size: 40px;    
+}
+.text{
+    width: 500px;
+}
+.info{
+    margin-top: 40px;
+}
